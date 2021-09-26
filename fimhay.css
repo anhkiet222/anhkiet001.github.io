@@ -1,0 +1,192 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%), url('https://static.mservice.io/blogscontents/momo-upload-api-200326140746-637208284661196092.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container header{
+    width: 100%;
+    height: 120px;
+    float: left;
+}
+#container header .logo{
+    width: 30%;
+    height: 120px;
+    margin-left: 3%;
+    float: left;
+}
+#container header .logo a{
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+#container header .submit{
+    width: 30%;
+    height: 70px;
+    float: left;
+    margin-top: 0.7%;
+    margin-left: 35%;
+}
+#container header .submit #home{
+    width: 33%;
+    height: 100%;
+    float: left;
+    padding-top: 5%;
+    margin-left: 10%;
+}
+#container header .submit #home a button:hover{
+    background-color: white;
+    color: black;
+}
+#container header .submit #home a button{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 70%;
+    font-size: 18px;
+    outline: none;
+    border: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    font-weight: 500;
+    cursor: pointer;
+}
+#container header .submit #sign-up{
+    width: 23%;
+    height: 100%;
+    float: left;
+    padding-top: 5%;
+}
+#container header .submit #sign-up a button{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 70%;
+    font-size: 18px;
+    outline: none;
+    border: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    font-weight: 500;
+    cursor: pointer;
+}
+#container header .submit #sign-up a button:hover{
+    background-color: white;
+    color: black;
+}
+#container header .submit #sign-in{
+    width: 23%;
+    height: 100%;
+    float: left;
+    padding-top: 5%;
+    margin-left: 3%;
+}
+#container header .submit #sign-in a button{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 70%;
+    font-size: 18px;
+    outline: none;
+    border: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+    font-weight: 500;
+    cursor: pointer;
+}
+#container header .submit #sign-in a button:hover{
+    background-color: white;
+    color: black;
+}
+#container section{
+    width: 100%;
+    height: 65%;
+    float: left;
+}
+#container section .gioi-thieu{
+    width: 100%;
+    height: 100%;
+    float: left;
+    color: white;
+    padding-top: 0.5%;
+}
+#container section .gioi-thieu #content{
+    width: 100%;
+    height: 75%;
+    float: left;
+}
+#container section .gioi-thieu h1{
+    font-size: 90px;
+    text-align: center;
+}
+#container section .gioi-thieu h3{
+    font-size: 50px;
+    text-align: center;
+}
+#container section .gioi-thieu h5{
+    font-size: 35px;
+    text-align: center;
+}
+#container section .gioi-thieu p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1%;
+}
+#container section .gioi-thieu #tools{
+    width: 100%;
+    height: 35%;
+    float: left;
+    display: inline-table;
+}
+#container section .gioi-thieu #tools #search{
+    width: 40%;
+    height: 40%;
+    padding-left: 1%;
+    margin-left: 25%;
+    font-size: 20px;
+    outline: none;
+    margin-top: 0.5%;
+}
+#container section .gioi-thieu #tools button{
+    width: 10%;
+    height: 40%;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    border: hidden;
+    font-weight: 600;
+    background-color: rgb(236, 46, 46);
+    cursor: pointer;
+}
+#container section .gioi-thieu #tools button:hover{
+    background-color: black;
+}
+#container footer{
+    width: 100%;
+    height: 16%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+#container footer .footer{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#container footer p a{
+    text-decoration: none;
+    color: white;
+}
